@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Pytest & testing caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# User uploads and processed outputs (directories preserved via .gitkeep)
+uploads/*
+!uploads/.gitkeep
+output/*
+!output/.gitkeep
+static/outputs/*
+!static/outputs/.gitkeep
+
+# Audio and media files
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.aac
+*.wma
+
+# Deep learning / Demucs model caches and weights
+*.pt
+*.pth
+*.onnx
+.cache/
+
+# Course presentations and office reports
+*.pptx
+*.docx
+*.pdf
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs & editors
+.idea/
+.vscode/
+*.swp
+*.swo

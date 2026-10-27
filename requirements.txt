@@ -1,0 +1,30 @@
+# =============================================================================
+# Classical DSP Vocal Remover & Source Separation - Dependencies
+# =============================================================================
+# Install core dependencies:
+#     pip install -r requirements.txt
+
+# --- Core DSP, Math & Audio Processing ---
+numpy>=1.24.0
+scipy>=1.11.0
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# --- Web UI & Application Server ---
+Flask>=2.3.0
+Werkzeug>=2.3.0
+
+# --- Visualisation & Plotting ---
+matplotlib>=3.7.0
+
+# --- CLI Utilities ---
+tqdm>=4.65.0
+
+# --- Unit Testing ---
+pytest>=7.4.0
+
+# --- Optional: AI Source Separation Engine (Demucs v4) ---
+# To enable the hybrid AI separation mode, install:
+# torch>=2.0.0
+# torchaudio>=2.0.0
+# demucs>=4.0.0
